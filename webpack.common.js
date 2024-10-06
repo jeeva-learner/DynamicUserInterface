@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWepbackPlugin = require('html-webpack-plugin');
 
-module.export = {
+module.exports = {
     entry: './src/index.js',
     plugins: [
         new HtmlWepbackPlugin({
@@ -10,7 +10,7 @@ module.export = {
     ],
     output: {
         filename: 'main.js',
-        path: path.resolve(__dirname,path),
+        path: path.resolve(__dirname,'dist'),
         clean: true,
     },
     module: {

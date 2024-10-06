@@ -3,7 +3,7 @@ node_modules
 node_modules/
 
 # Output directories
-dist/
+# dist/
 
 # Logs
 logs/
